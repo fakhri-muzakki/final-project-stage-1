@@ -1,0 +1,58 @@
+<!-- Work Experiences Section -->
+<section id="experience" class="pt-20">
+    <div class="px-6">
+        <!-- Title -->
+        <h2 class="text-3xl font-bold mb-16 dark:text-white">
+            Work Experiences:
+        </h2>
+
+        <div class="space-y-8">
+            {{#each experiences}}
+
+            <!-- Experience Card -->
+            <div class="flex flex-col md:flex-row justify-between gap-8 p-8 bg-white dark:bg-gray-800 rounded-2xl">
+                <!-- Left Content -->
+                <div class="flex gap-8">
+                    <div class="pt-2">
+                        <img src="{{this.image}}" loading="lazy" alt="" class="w-16" />
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-1 dark:text-white">
+                            {{this.title}}
+                        </h3>
+
+                        <p class="text-gray-600 dark:text-gray-400 font-medium mb-4">
+                            {{this.headline}}
+                        </p>
+
+                        <ul class="list-disc list-inside text-gray-600 space-y-2 mb-6 dark:text-gray-400">
+                            {{#each list}}
+                            <li> {{this}} </li>
+                            {{/each}}
+                        </ul>
+
+                        <!-- Badges -->
+                        <div class="flex flex-wrap gap-3">
+                            {{#each teckStack}}
+                            <span
+                                class="px-3 py-1 rounded-full dark:bg-gray-700 dark:text-gray-400 text-sm font-medium">
+                                {{this}}
+                            </span>
+                            {{/each}}
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Date -->
+                <div class="text-gray-500 dark:text-gray-400 font-medium md:text-right whitespace-nowrap">
+                    {{date}}
+                </div>
+            </div>
+            {{/each }}
+
+
+
+        </div>
+    </div>
+</section>

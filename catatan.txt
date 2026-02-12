@@ -1,0 +1,32 @@
+
+1. Buat video 
+2. push ke github
+3. upload video ke google drive
+4. kirim tugas
+
+
+referensi final project :
+https://suryaelz.vercel.app
+
+
+
+
+
+
+
+simpan dark mode ke localstorage
+
+
+nambahin dark mode
+nambahin animasi
+
+mengikuti trik link angchor agar tidak berubah urlnya
+simpan ke localstorage
+hilangkan bug kedip
+
+
+
+
+
+"dev": "nodemon src/server.js",
+    "start": "node src/server.js"
