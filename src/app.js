@@ -23,7 +23,7 @@ hbs.registerPartials(path.join(__dirname, "views/partials"));
 // ==================
 // STATIC FILES
 // ==================
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "../src/public")));
 // app.use(express.static("public"));
 
 // app.use(
