@@ -22,17 +22,54 @@
             </a>
 
             <!-- Download CV -->
-            <a href="/cv.pdf" download
+            <a href="/resume-en.pdf" download
                 class="px-4 py-2 rounded-lg bg-gray-950 dark:bg-white font-medium hover:bg-gray-800 transition text-white dark:text-gray-900 dark:hover:bg-white/90 flex items-center text-sm">
-                <i data-lucide="download" class="mr-2 size-4"></i>
+                <span class="mr-2">
+                    <svg data-v-15b35c9e="" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-icon customizable lucide-download-icon lucide-download lucide-icon customizable"
+                        aria-hidden="true">
+                        <path d="M12 15V3"></path>
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <path d="m7 10 5 5 5-5"></path>
+                    </svg>
+                </span>
                 Download CV
             </a>
 
             <!-- Dark Mode Button -->
-            <button onclick="toggleTheme()" class="p-2 rounded-lg">
-                <i data-lucide="moon" class="w-5 h-5 dark:hidden"></i>
-                <i data-lucide="sun"
-                    class="w-5 h-5 hidden dark:block text-gray-300 hover:text-white transition-colors"></i>
+            <button onclick="toggleTheme()" class="p-2 rounded-lg cursor-pointer">
+                <span class="dark:hidden">
+                    <svg data-v-15b35c9e="" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-icon customizable lucide-moon-icon lucide-moon lucide-icon customizable"
+                        aria-hidden="true">
+                        <path
+                            d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401">
+                        </path>
+                    </svg>
+                </span>
+
+
+                <span class="hidden dark:block text-gray-300 hover:text-white transition-colors">
+                    <svg data-v-15b35c9e="" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-icon customizable lucide-sun-icon lucide-sun lucide-icon customizable"
+                        aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2"></path>
+                        <path d="M12 20v2"></path>
+                        <path d="m4.93 4.93 1.41 1.41"></path>
+                        <path d="m17.66 17.66 1.41 1.41"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="m6.34 17.66-1.41 1.41"></path>
+                        <path d="m19.07 4.93-1.41 1.41"></path>
+                    </svg>
+                </span>
             </button>
         </div>
     </div>

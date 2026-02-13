@@ -5,7 +5,3 @@ if (savedTheme === "dark") {
 } else {
   document.documentElement.classList.remove("dark");
 }
-
-tailwind.config = {
-  darkMode: "class",
-};

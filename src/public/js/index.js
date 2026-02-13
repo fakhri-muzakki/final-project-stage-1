@@ -14,7 +14,7 @@ function toggleTheme() {
 
 document.querySelectorAll(".nav-link").forEach((link) => {
   link.addEventListener("click", function (e) {
-    e.preventDefault(); // ❌ hentikan perubahan URL
+    e.preventDefault(); //  hentikan perubahan URL
 
     const targetId = this.getAttribute("href");
     const targetEl = document.querySelector(targetId);
@@ -26,5 +26,3 @@ document.querySelectorAll(".nav-link").forEach((link) => {
     }
   });
 });
-
-lucide.createIcons();

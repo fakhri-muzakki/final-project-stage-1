@@ -29,7 +29,8 @@
                     <!-- Badges -->
                     <div class="flex flex-wrap gap-3 mb-6">
                         {{#each techStack}}
-                        <span class="px-3 py-1 rounded-full dark:bg-gray-700 dark:text-gray-400 text-sm font-medium">
+                        <span
+                            class="px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-700 dark:text-gray-400 text-sm font-medium">
                             {{this}}
                         </span>
                         {{/each}}
@@ -47,8 +48,18 @@
                         </a>
 
                         <a href="#" class="text-center py-2 rounded-lg font-medium transition flex items-center ">
-                            <i data-lucide="square-arrow-out-up-right" class="mr-2 size-4"></i>
-                            Demo Unavailable
+                            <svg data-v-15b35c9e="" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-icon customizable lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right lucide-icon customizable"
+                                aria-hidden="true">
+                                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path>
+                                <path d="m21 3-9 9"></path>
+                                <path d="M15 3h6v6"></path>
+                            </svg>
+                            <span class="ml-2">
+                                Demo Unavailable
+                            </span>
                         </a>
                     </div>
                 </div>
